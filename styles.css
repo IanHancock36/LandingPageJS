@@ -1,7 +1,47 @@
 html{
     background: url('anchor-037.jpg') ;
-   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+  
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: QuickSand; 
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .3s;
+    
+}
+nav ul{
+    list-style: none; /* this will take the little circles off the list items */
+    float: right; /* this floats the list items for nav off to the right */ 
+    margin: 0; /* properties are used to create space around elements, outside of any defined borders.*/
+    padding: 0; /* properties are used to generate space around an element's content, inside of any defined borders.*/
+    display: flex; 
+}
+
+nav ul li a{
+    line-height: 80px; 
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px ;
 
 }
+
+section.sec1{
+    width: 100%;
+    height: 100vh;
+}
+
+/* line-height sets the height of the line box used for distance between lines of text */
