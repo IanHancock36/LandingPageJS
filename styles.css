@@ -44,4 +44,12 @@ section.sec1{
     height: 100vh;
 }
 
+.content{
+    margin-top: px;
+}
+.content p{
+    width: 200px;
+    float: right 
+}
+
 /* line-height sets the height of the line box used for distance between lines of text */

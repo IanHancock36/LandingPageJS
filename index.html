@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <script src="scripts.js"></script>
+    
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -32,16 +32,37 @@
             
           </p>
       </section>
+      <div class = 'contactform'>
+        <!-- The action attribute specifies where to send the form-data when a form is submitted. -->
+        <div id="error"></div> 
+        <!-- the empty div with id of error is used be blank to display the dynamic text if nothing is typed on the contact form -->
+        <form id ='form' action="/" method ="GET" ></form>
+        <div>
+          <form action="/" method ="GET" ></form>
+          <label for="name">Name</label>
+          <input id='name' name='name' type='text' placeholder="Name">
+          <label for="name">Email</label>
+          <input id='email' name='email' type='text' placeholder="Email Address">
+          <label for="name">Business Name </label>
+          <input id='business' name='business' type='text' placeholder="Business Name">
+          <label for="name">Phone Number</label>
+          <input id='phonenumber' name='phonenumber' type='text' placeholder="Phone Numnber">
+          
+        </div>
+        <button type ='submit'>Submit</button>
+      </div>
+    
+    
     </div>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
 
 <!-- 
     #1 add anchor tags <a> for the nav bar.
      #2 you add a <a> anchor tag to the original index.html so the logo calls back to the"homepage" 
-    
-
-
+    #3 for contact form need to put for phone # so only numbers and no text come through 
 
 
 -->
