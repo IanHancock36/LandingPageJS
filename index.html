@@ -32,25 +32,30 @@
             
           </p>
       </section>
-      <div class = 'contactform'>
+      
         <!-- The action attribute specifies where to send the form-data when a form is submitted. -->
         <div id="error"></div> 
         <!-- the empty div with id of error is used be blank to display the dynamic text if nothing is typed on the contact form -->
-        <form id ='form' action="/" method ="GET" ></form>
-        <div>
-          <form action="/" method ="GET" ></form>
+        <form action="/" method ="GET" >
+          <div>
           <label for="name">Name</label>
           <input id='name' name='name' type='text' placeholder="Name">
+          </div>
+          <div>
           <label for="name">Email</label>
           <input id='email' name='email' type='text' placeholder="Email Address">
+          </div>
+        <div>
           <label for="name">Business Name </label>
           <input id='business' name='business' type='text' placeholder="Business Name">
+          </div>
+          <div>
           <label for="name">Phone Number</label>
           <input id='phonenumber' name='phonenumber' type='text' placeholder="Phone Numnber">
-          
+          </div>
         </div>
         <button type ='submit'>Submit</button>
-      </div>
+      </form>
     
     
     </div>

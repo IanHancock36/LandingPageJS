@@ -11,8 +11,9 @@ form.addEventListener('submit', (event)=>{
     if (name.value === '' || name.value == null){
         messages.push('Name is required') // this pushes this to the empty array of the variable messages
     }
+    // the messages. push is pushing whats in the '' back into the empty array
     if (email.length <= 5){
-        messages.push 
+        messages.push ('Password must be longer than that.')
     }
     if(messages.length > 0){
         event.preventDefault()
